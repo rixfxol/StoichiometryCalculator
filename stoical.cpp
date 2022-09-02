@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 
-
+#include "stoical.hpp"
 
 using namespace std;
 
@@ -29,7 +29,7 @@ void unit_Splitter(std::string*) {
 
 }
 
-int stoi_Cal(std::string* list_Reactants, std::string* list_Products){
+int g_stoiCal(std::string* list_Reactants, std::string* list_Products){
 
     return 0;
 }
